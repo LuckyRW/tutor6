@@ -1,6 +1,6 @@
 # tests/test_app.py
 import unittest
-from src.app import app
+from app import app
 
 class TestApp(unittest.TestCase):
     def test_home(self):
